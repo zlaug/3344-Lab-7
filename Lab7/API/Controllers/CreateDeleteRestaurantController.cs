@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Data;
+using System.Data.SqlClient;
 
 namespace API.Controllers
 {
@@ -13,7 +15,7 @@ namespace API.Controllers
     {
         // GET: api/CreateDeleteRestaurant
         [HttpGet]
-        public IEnumerable<string> Get()
+        public List<Restaurant> Get()
         {
             return new string[] { "value1", "value2" };
         }
