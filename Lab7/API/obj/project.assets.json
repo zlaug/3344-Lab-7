@@ -4615,6 +4615,25 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "Classes/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Classes.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Classes.dll": {}
+        }
+      },
+      "Lab7/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Lab7.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Lab7.dll": {}
+        }
       }
     }
   },
@@ -12519,10 +12538,22 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "Classes/1.0.0": {
+      "type": "project",
+      "path": "../Classes/Classes.csproj",
+      "msbuildProject": "../Classes/Classes.csproj"
+    },
+    "Lab7/1.0.0": {
+      "type": "project",
+      "path": "../Lab7/Lab7.csproj",
+      "msbuildProject": "../Lab7/Lab7.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "Classes >= 1.0.0",
+      "Lab7 >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
       "Microsoft.NETCore.App >= 2.1.0",
@@ -12558,7 +12589,14 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\gwiarae\\Documents\\GitHub\\3344-Lab-7\\Lab7\\Classes\\Classes.csproj": {
+              "projectPath": "C:\\Users\\gwiarae\\Documents\\GitHub\\3344-Lab-7\\Lab7\\Classes\\Classes.csproj"
+            },
+            "C:\\Users\\gwiarae\\Documents\\GitHub\\3344-Lab-7\\Lab7\\Lab7\\Lab7.csproj": {
+              "projectPath": "C:\\Users\\gwiarae\\Documents\\GitHub\\3344-Lab-7\\Lab7\\Lab7\\Lab7.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

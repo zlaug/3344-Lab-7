@@ -15,7 +15,7 @@ namespace API.Controllers
     {
         // GET: api/CreateDeleteRestaurant
         [HttpGet]
-        public List<Restaurant> Get()
+        public ActionResult<IEnumerable<string>> Get()
         {
             return new string[] { "value1", "value2" };
         }
