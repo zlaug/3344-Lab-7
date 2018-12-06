@@ -179,23 +179,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Zach\\.nuget\\packages\\": {},
+    "C:\\Users\\gwiarae\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Zach\\Documents\\GitHub\\3344-Lab-7\\Lab7\\Classes\\Classes.csproj",
+      "projectUniqueName": "C:\\Users\\gwiarae\\Documents\\GitHub\\3344-Lab-7\\Lab7\\Classes\\Classes.csproj",
       "projectName": "Classes",
-      "projectPath": "C:\\Users\\Zach\\Documents\\GitHub\\3344-Lab-7\\Lab7\\Classes\\Classes.csproj",
-      "packagesPath": "C:\\Users\\Zach\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Zach\\Documents\\GitHub\\3344-Lab-7\\Lab7\\Classes\\obj\\",
+      "projectPath": "C:\\Users\\gwiarae\\Documents\\GitHub\\3344-Lab-7\\Lab7\\Classes\\Classes.csproj",
+      "packagesPath": "C:\\Users\\gwiarae\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gwiarae\\Documents\\GitHub\\3344-Lab-7\\Lab7\\Classes\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Zach\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gwiarae\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
