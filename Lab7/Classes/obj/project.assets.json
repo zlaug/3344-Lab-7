@@ -25,6 +25,24 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Lab7/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Lab7.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Lab7.dll": {}
+        }
+      },
+      "Utilities/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Utilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Utilities.dll": {}
+        }
       }
     }
   },
@@ -171,31 +189,43 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "Lab7/1.0.0": {
+      "type": "project",
+      "path": "../Lab7/Lab7.csproj",
+      "msbuildProject": "../Lab7/Lab7.csproj"
+    },
+    "Utilities/1.0.0": {
+      "type": "project",
+      "path": "../../../TermProject3342/TermProject/Utilities/Utilities.csproj",
+      "msbuildProject": "../../../TermProject3342/TermProject/Utilities/Utilities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "NETStandard.Library >= 2.0.3"
+      "Lab7 >= 1.0.0",
+      "NETStandard.Library >= 2.0.3",
+      "Utilities >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gwiarae\\.nuget\\packages\\": {},
+    "C:\\Users\\Zach\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gwiarae\\Documents\\GitHub\\3344-Lab-7\\Lab7\\Classes\\Classes.csproj",
+      "projectUniqueName": "C:\\Users\\Zach\\Documents\\GitHub\\3344-Lab-7\\Lab7\\Classes\\Classes.csproj",
       "projectName": "Classes",
-      "projectPath": "C:\\Users\\gwiarae\\Documents\\GitHub\\3344-Lab-7\\Lab7\\Classes\\Classes.csproj",
-      "packagesPath": "C:\\Users\\gwiarae\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gwiarae\\Documents\\GitHub\\3344-Lab-7\\Lab7\\Classes\\obj\\",
+      "projectPath": "C:\\Users\\Zach\\Documents\\GitHub\\3344-Lab-7\\Lab7\\Classes\\Classes.csproj",
+      "packagesPath": "C:\\Users\\Zach\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Zach\\Documents\\GitHub\\3344-Lab-7\\Lab7\\Classes\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\gwiarae\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Zach\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -207,7 +237,14 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Zach\\Documents\\GitHub\\3344-Lab-7\\Lab7\\Lab7\\Lab7.csproj": {
+              "projectPath": "C:\\Users\\Zach\\Documents\\GitHub\\3344-Lab-7\\Lab7\\Lab7\\Lab7.csproj"
+            },
+            "C:\\Users\\Zach\\Documents\\GitHub\\TermProject3342\\TermProject\\Utilities\\Utilities.csproj": {
+              "projectPath": "C:\\Users\\Zach\\Documents\\GitHub\\TermProject3342\\TermProject\\Utilities\\Utilities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

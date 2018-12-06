@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\TermProject3342\TermProject\Utilities\Utilities.csproj" />
     <ProjectReference Include="..\Classes\Classes.csproj" />
     <ProjectReference Include="..\Lab7\Lab7.csproj" />
   </ItemGroup>

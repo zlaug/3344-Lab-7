@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Classes
 {
-    class Reviews
+    public class Reviews
     {
         public string RestaurantID { get; set; }
         public int StarRating { get; set; }

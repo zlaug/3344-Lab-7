@@ -4619,6 +4619,10 @@
       "Classes/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Lab7": "1.0.0",
+          "Utilities": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Classes.dll": {}
         },
@@ -4633,6 +4637,15 @@
         },
         "runtime": {
           "bin/placeholder/Lab7.dll": {}
+        }
+      },
+      "Utilities/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Utilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Utilities.dll": {}
         }
       }
     }
@@ -7670,7 +7683,7 @@
       ]
     },
     "Newtonsoft.Json/11.0.2": {
-      "sha512": "znZGbws7E4BA9jxNZ7FuiIRI3C9hrgatVQSTKhIYZYNOud4M5VfGlTYi6RdYO5sQrebFuF/g9UEV3hOxDMXF6Q==",
+      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
       "type": "package",
       "path": "newtonsoft.json/11.0.2",
       "files": [
@@ -12548,6 +12561,11 @@
       "type": "project",
       "path": "../Lab7/Lab7.csproj",
       "msbuildProject": "../Lab7/Lab7.csproj"
+    },
+    "Utilities/1.0.0": {
+      "type": "project",
+      "path": "../../../TermProject3342/TermProject/Utilities/Utilities.csproj",
+      "msbuildProject": "../../../TermProject3342/TermProject/Utilities/Utilities.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -12557,27 +12575,28 @@
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
       "Microsoft.NETCore.App >= 2.1.0",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.1"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.1",
+      "Utilities >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gwiarae\\.nuget\\packages\\": {},
+    "C:\\Users\\Zach\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gwiarae\\Documents\\GitHub\\3344-Lab-7\\Lab7\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\Zach\\Documents\\GitHub\\3344-Lab-7\\Lab7\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\gwiarae\\Documents\\GitHub\\3344-Lab-7\\Lab7\\API\\API.csproj",
-      "packagesPath": "C:\\Users\\gwiarae\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gwiarae\\Documents\\GitHub\\3344-Lab-7\\Lab7\\API\\obj\\",
+      "projectPath": "C:\\Users\\Zach\\Documents\\GitHub\\3344-Lab-7\\Lab7\\API\\API.csproj",
+      "packagesPath": "C:\\Users\\Zach\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Zach\\Documents\\GitHub\\3344-Lab-7\\Lab7\\API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\gwiarae\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Zach\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12590,11 +12609,14 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\gwiarae\\Documents\\GitHub\\3344-Lab-7\\Lab7\\Classes\\Classes.csproj": {
-              "projectPath": "C:\\Users\\gwiarae\\Documents\\GitHub\\3344-Lab-7\\Lab7\\Classes\\Classes.csproj"
+            "C:\\Users\\Zach\\Documents\\GitHub\\3344-Lab-7\\Lab7\\Classes\\Classes.csproj": {
+              "projectPath": "C:\\Users\\Zach\\Documents\\GitHub\\3344-Lab-7\\Lab7\\Classes\\Classes.csproj"
             },
-            "C:\\Users\\gwiarae\\Documents\\GitHub\\3344-Lab-7\\Lab7\\Lab7\\Lab7.csproj": {
-              "projectPath": "C:\\Users\\gwiarae\\Documents\\GitHub\\3344-Lab-7\\Lab7\\Lab7\\Lab7.csproj"
+            "C:\\Users\\Zach\\Documents\\GitHub\\3344-Lab-7\\Lab7\\Lab7\\Lab7.csproj": {
+              "projectPath": "C:\\Users\\Zach\\Documents\\GitHub\\3344-Lab-7\\Lab7\\Lab7\\Lab7.csproj"
+            },
+            "C:\\Users\\Zach\\Documents\\GitHub\\TermProject3342\\TermProject\\Utilities\\Utilities.csproj": {
+              "projectPath": "C:\\Users\\Zach\\Documents\\GitHub\\TermProject3342\\TermProject\\Utilities\\Utilities.csproj"
             }
           }
         }
