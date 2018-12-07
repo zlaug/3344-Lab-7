@@ -34,15 +34,6 @@
         "runtime": {
           "bin/placeholder/Lab7.dll": {}
         }
-      },
-      "Utilities/1.0.0": {
-        "type": "project",
-        "compile": {
-          "bin/placeholder/Utilities.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Utilities.dll": {}
-        }
       }
     }
   },
@@ -194,18 +185,13 @@
       "type": "project",
       "path": "../Lab7/Lab7.csproj",
       "msbuildProject": "../Lab7/Lab7.csproj"
-    },
-    "Utilities/1.0.0": {
-      "type": "project",
-      "path": "../../../TermProject3342/TermProject/Utilities/Utilities.csproj",
-      "msbuildProject": "../../../TermProject3342/TermProject/Utilities/Utilities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "C:\\Users\\Zach\\Documents\\GitHub\\TermProject3342\\TermProject\\Utilities\\Utilities.csproj",
       "Lab7 >= 1.0.0",
-      "NETStandard.Library >= 2.0.3",
-      "Utilities >= 1.0.0"
+      "NETStandard.Library >= 2.0.3"
     ]
   },
   "packageFolders": {
@@ -270,5 +256,16 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\Zach\\Documents\\GitHub\\TermProject3342\\TermProject\\Utilities\\Utilities.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\Zach\\Documents\\GitHub\\TermProject3342\\TermProject\\Utilities\\Utilities.csproj",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
 }
