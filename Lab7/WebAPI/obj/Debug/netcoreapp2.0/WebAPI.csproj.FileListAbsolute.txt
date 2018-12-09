@@ -1,0 +1,11 @@
+C:\Users\gwiarae\source\repos\3344-Lab-7\Lab7\WebAPI\bin\Debug\netcoreapp2.0\WebAPI.deps.json
+C:\Users\gwiarae\source\repos\3344-Lab-7\Lab7\WebAPI\bin\Debug\netcoreapp2.0\WebAPI.runtimeconfig.json
+C:\Users\gwiarae\source\repos\3344-Lab-7\Lab7\WebAPI\bin\Debug\netcoreapp2.0\WebAPI.runtimeconfig.dev.json
+C:\Users\gwiarae\source\repos\3344-Lab-7\Lab7\WebAPI\bin\Debug\netcoreapp2.0\WebAPI.dll
+C:\Users\gwiarae\source\repos\3344-Lab-7\Lab7\WebAPI\obj\Debug\netcoreapp2.0\WebAPI.csprojAssemblyReference.cache
+C:\Users\gwiarae\source\repos\3344-Lab-7\Lab7\WebAPI\obj\Debug\netcoreapp2.0\WebAPI.csproj.CoreCompileInputs.cache
+C:\Users\gwiarae\source\repos\3344-Lab-7\Lab7\WebAPI\obj\Debug\netcoreapp2.0\WebAPI.AssemblyInfoInputs.cache
+C:\Users\gwiarae\source\repos\3344-Lab-7\Lab7\WebAPI\obj\Debug\netcoreapp2.0\WebAPI.AssemblyInfo.cs
+C:\Users\gwiarae\source\repos\3344-Lab-7\Lab7\WebAPI\bin\Debug\netcoreapp2.0\WebAPI.pdb
+C:\Users\gwiarae\source\repos\3344-Lab-7\Lab7\WebAPI\obj\Debug\netcoreapp2.0\WebAPI.dll
+C:\Users\gwiarae\source\repos\3344-Lab-7\Lab7\WebAPI\obj\Debug\netcoreapp2.0\WebAPI.pdb

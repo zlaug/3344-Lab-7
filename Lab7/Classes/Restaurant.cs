@@ -12,7 +12,7 @@ namespace Classes
         public int StarRating { get; set; }
         public string PriceRating { get; set; }
         public string ImageURL { get; set; }
-        public string Cuising { get; set; }
+        public string Cuisine { get; set; }
         public int AvgRating { get; set; }
 
         public Restaurant()
@@ -30,7 +30,7 @@ namespace Classes
             this.StarRating = starRating;
             this.PriceRating = priceRating;
             this.ImageURL = imgURL;
-            this.Cuising = cuisine;
+            this.Cuisine = cuisine;
             this.AvgRating = avg;
         }
     }

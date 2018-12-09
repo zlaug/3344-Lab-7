@@ -7,3 +7,16 @@ C:\Users\gwiarae\Documents\GitHub\3344-Lab-7\Lab7\Classes\obj\Debug\netstandard2
 C:\Users\gwiarae\Documents\GitHub\3344-Lab-7\Lab7\Classes\obj\Debug\netstandard2.0\Classes.dll
 C:\Users\gwiarae\Documents\GitHub\3344-Lab-7\Lab7\Classes\obj\Debug\netstandard2.0\Classes.pdb
 C:\Users\gwiarae\Documents\GitHub\3344-Lab-7\Lab7\Classes\obj\Debug\netstandard2.0\Classes.csprojAssemblyReference.cache
+C:\Users\gwiarae\source\repos\3344-Lab-7\Lab7\Classes\bin\Debug\netstandard2.0\Classes.deps.json
+C:\Users\gwiarae\source\repos\3344-Lab-7\Lab7\Classes\bin\Debug\netstandard2.0\Classes.dll
+C:\Users\gwiarae\source\repos\3344-Lab-7\Lab7\Classes\bin\Debug\netstandard2.0\Classes.pdb
+C:\Users\gwiarae\source\repos\3344-Lab-7\Lab7\Classes\bin\Debug\netstandard2.0\Lab7.dll
+C:\Users\gwiarae\source\repos\3344-Lab-7\Lab7\Classes\bin\Debug\netstandard2.0\Lab7.pdb
+C:\Users\gwiarae\source\repos\3344-Lab-7\Lab7\Classes\bin\Debug\netstandard2.0\Lab7.dll.config
+C:\Users\gwiarae\source\repos\3344-Lab-7\Lab7\Classes\obj\Debug\netstandard2.0\Classes.csprojAssemblyReference.cache
+C:\Users\gwiarae\source\repos\3344-Lab-7\Lab7\Classes\obj\Debug\netstandard2.0\Classes.csproj.CoreCompileInputs.cache
+C:\Users\gwiarae\source\repos\3344-Lab-7\Lab7\Classes\obj\Debug\netstandard2.0\Classes.AssemblyInfoInputs.cache
+C:\Users\gwiarae\source\repos\3344-Lab-7\Lab7\Classes\obj\Debug\netstandard2.0\Classes.AssemblyInfo.cs
+C:\Users\gwiarae\source\repos\3344-Lab-7\Lab7\Classes\obj\Debug\netstandard2.0\Classes.csproj.CopyComplete
+C:\Users\gwiarae\source\repos\3344-Lab-7\Lab7\Classes\obj\Debug\netstandard2.0\Classes.dll
+C:\Users\gwiarae\source\repos\3344-Lab-7\Lab7\Classes\obj\Debug\netstandard2.0\Classes.pdb
